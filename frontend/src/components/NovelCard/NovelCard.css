@@ -1,0 +1,53 @@
+.novel-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+    height: 400px;
+    width: 300px; /* Adjust width according to parent container */
+}
+
+.novel-card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.novel-card img {
+    width: 100%;
+    height: 75%; /* Adjust image height */
+    object-fit: cover;
+}
+
+.novel-card-content {
+    padding: 58px;
+}
+
+.novel-card h2 {
+    font-size: 18px;
+    margin: 5px;
+    color: #333; /* Light mode text color */
+}
+
+.novel-card p {
+    font-size: 14px;
+    margin: 10px;
+    color: #666; /* Light mode text color */
+}
+
+/* Revert hyperlink formatting */
+.novel-card a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Dark mode styles */
+.dark-mode .novel-card {
+    border-color: #555; /* Dark mode border color */
+    background-color: #444; /* Dark mode background color */
+}
+
+.dark-mode .novel-card h2,
+.dark-mode .novel-card p {
+    color: #ddd; /* Dark mode text color */
+}

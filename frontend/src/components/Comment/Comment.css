@@ -1,0 +1,26 @@
+.comment {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.comment.dark-mode {
+    border-color: #666; /* Dark mode border color */
+}
+
+.user {
+    font-weight: bold;
+}
+
+.text {
+    margin-top: 5px;
+}
+
+.dark-mode .user {
+    color: #fff; /* Dark mode user text color */
+}
+
+.dark-mode .text {
+    color: #ccc; /* Dark mode comment text color */
+}

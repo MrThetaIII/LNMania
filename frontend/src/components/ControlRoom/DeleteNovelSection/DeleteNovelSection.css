@@ -1,0 +1,37 @@
+/* DeleteNovelSection.css */
+.section {
+    margin-bottom: 20px;
+}
+
+.section h2 {
+    margin-bottom: 10px;
+}
+
+.section div {
+    margin-bottom: 10px;
+}
+
+.section label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.section select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.section button {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.section button:hover {
+    background-color: #c82333;
+}

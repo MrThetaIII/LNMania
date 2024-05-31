@@ -1,0 +1,59 @@
+.login-page {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #fff; /* Light mode background color */
+    color: #333; /* Light mode text color */
+    margin-top: 100px;
+}
+
+.dark-mode .login-page {
+    background-color: #333; /* Dark mode background color */
+    color: #fff; /* Dark mode text color */
+}
+
+.login-page h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.login-page form, .login-page .signup-button{
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+}
+
+.login-page input {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.dark-mode .login-page input {
+    background-color: #333; /* Dark mode input background color */
+    color: #fff; /* Dark mode input text color */
+}
+
+.login-page button {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff; /* Light mode button color */
+    color: #fff; /* Light mode button text color */
+    cursor: pointer;
+}
+
+.dark-mode .login-page button {
+    background-color: #666; /* Dark mode button color */
+}
+
+.login-page button:hover {
+    background-color: #0056b3; /* Light mode button hover color */
+}
+
+.dark-mode .login-page button:hover {
+    background-color: #555; /* Dark mode button hover color */
+}

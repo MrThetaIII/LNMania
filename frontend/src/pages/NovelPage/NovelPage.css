@@ -1,0 +1,155 @@
+.novel-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.novel-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.novel-cover {
+    max-width: 300px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.novel-details {
+    flex: 1;
+}
+
+.genres {
+    margin-bottom: 10px;
+}
+
+.genre {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+.dark-mode .genre {
+    background-color: #666;
+}
+
+.rating-options {
+    display: flex;
+    margin-top: 10px;
+}
+
+.rating-options button {
+    margin-right: 5px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.dark-mode .rating-options button {
+    background-color: #666;
+}
+
+.comments-section {
+    width: 100%;
+}
+
+.add-comment {
+    margin-top: 20px;
+}
+
+.add-comment textarea {
+    width: calc(100% - 20px);
+    height: 100px;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.add-comment button {
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.dark-mode .add-comment button {
+    background-color: #666;
+}
+
+.controls {
+    margin-top: 20px;
+}
+
+.controls input {
+    margin-right: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.controls button {
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.controls button:hover {
+    background-color: #0056b3;
+}
+
+.dark-mode .controls button:hover {
+    background-color: #555;
+}
+
+.controls select {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    color: #333;
+    background-color: #fff;
+    margin: 5px;
+}
+
+.dark-mode .controls select {
+    background-color: #333;
+    color: #fff;
+}
+
+.controls option {
+    padding: 5px;
+    background-color: #fff;
+    color: #333;
+    margin: 5px;
+}
+
+.dark-mode .controls option {
+    background-color: #333;
+    color: #fff;
+}
+
+.dark-mode .controls button {
+    background-color: #666;
+}
+
+.dark-mode .controls input {
+    background-color: #333;
+    color: #fff;
+}
+
+.invisible {
+    display: none;
+}

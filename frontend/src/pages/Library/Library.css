@@ -1,0 +1,54 @@
+/* LibraryPage.css */
+
+.library-page {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.library-page h2 {
+    margin-bottom: 10px;
+}
+
+.favorite-novels, .collections {
+    margin-bottom: 30px;
+}
+
+.collection {
+    margin-bottom: 20px;
+}
+
+.novel-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 20px;
+}
+
+/* Dark mode styles */
+
+.dark-mode .library-page {
+    background-color: #333; /* Dark mode background color */
+    color: #fff; /* Dark mode text color */
+}
+
+.dark-mode .novel-card {
+    background-color: #444; /* Dark mode novel card background color */
+    color: #fff; /* Dark mode novel card text color */
+}
+
+.dark-mode .novel-card:hover {
+    background-color: #555; /* Dark mode novel card hover background color */
+}
+
+.dark-mode .novel-list {
+    border: 1px solid #666; /* Dark mode novel list border color */
+}
+
+.dark-mode .novel-list .novel-card {
+    background-color: #444; /* Dark mode novel card background color */
+    color: #fff; /* Dark mode novel card text color */
+}
+
+.dark-mode .novel-list .novel-card:hover {
+    background-color: #555; /* Dark mode novel card hover background color */
+}
